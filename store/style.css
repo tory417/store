@@ -1,0 +1,135 @@
+*{
+	font-family: Segoe UI;
+}
+.box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	margin-right:20px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 50px;
+}
+.header__icon{
+	display: flex;
+	justify-content: flex-start;
+}
+.header__search{
+	display: flex;
+	justify-content: flex-end;
+}
+.search__field{
+	border-radius: 15px;
+}
+.header__right{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 40%;
+}
+.header__menu{
+	display: flex;
+	width: 30%;
+	flex-grow: 1;
+}
+.icon__1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 26px;
+	height: 26px;
+	border: 2px solid red;
+	border-radius: 50px;
+	color: red;
+	font-size: 35px;
+	padding: 5px;
+}
+.icon__text{
+	font-size: 30px;
+	margin-left: 3px;
+}
+hr{
+	border: none;
+	color: red;
+	background-color:red;
+	height: 2px;
+	padding: 0px 50px;
+}
+.search_icon{
+	background-image: url("../store/img/search.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 25px;
+	margin-top: 10px;
+}
+.galery_head{
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+.galery{
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.galery__photo{
+	margin: 20px;
+}
+img{
+	width: 100px;
+}
+.order_head{
+	font-size: 20px;
+	font-weight: 700;
+}
+.order{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	background-color: #808080;
+	width: 30%;
+	padding: 15px;
+	margin-top: 40px;
+	border: 1px solid black;
+	color: white;
+	font-weight: 600;
+}
+.order__message{
+	display: flex;
+	align-items: flex-start;
+}
+.order__form{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+input{
+	margin: 10px 15px;
+}
+textarea{
+	margin-left: 15px;
+	resize: vertical;
+	width: 330px;
+	height: 200px;
+	min-width: 50px;
+}
+.order__button{
+	margin-top: 10px;
+}
+.contacts{
+	font-size: 20px;
+	font-weight: 700;
+	margin-top: 10px;
+}
+.phone{
+	font-size: 22px;
+	margin-top: 20px;
+}
